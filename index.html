@@ -7,14 +7,19 @@
 
     <!--python imports go here-->
     <!--like "packages = ["madplotlib", "pandas"]"-->
-    <!--DONT CHANGE LINE 1 I SWEAR-->
+    <!--Packages numpy, pandas, and madplotlib are imported by default. you can add more by adding ', "package"' when needed-->
     <py-config>
-
+      packages = ["numpy", "pandas", "madplotlib"]
     </py-config>
     
     <!--python code goes here-->
     <py-script>
-    
+      import numpy
+      print("Successfully imported package numpy")
+      import madplotlib
+      print("Successfully imported package madplotlib")
+      import pandas
+      print("Successfully imported package pandas")
     </py-script>
 
     
